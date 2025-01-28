@@ -172,3 +172,45 @@ body {
 .info__gallery img {
   max-width: 100%;
 }
+
+.color-info__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 160px;
+  margin-bottom: 70px;
+}
+
+.color-info__gallery {
+  background-color: #13171C;
+}
+
+.color-info__gallery-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 170px 45px;
+  gap: 20px;
+}
+
+.gallery__item {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 20px;
+}
+
+.gallery__item img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.gallery__text {
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.color-info__gallery-start,
+.color-info__gallery-end {
+  width: 100%;
+}
